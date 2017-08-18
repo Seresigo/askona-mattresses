@@ -1,0 +1,205 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+	font-size: 4.5em;
+	color: #424242;
+}
+
+h2 {
+	font-size: 2.3em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+.btn {
+	background-color: #d20000;
+	border: 1px solid #ffffff;
+}
+
+.nav_phone {
+	color: #000000;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+@media (min-width: 930px) {
+	.nav-link {
+		font-size: 1.7em;
+		margin-right: 20px;
+	}
+	.nav_phone {
+	color: #000000;
+	font-weight: bold;
+	margin-right: 40px;
+	font-size: 1.7em;
+	}
+	.nav__btn {
+		font-size: 1.7em;
+	}
+}
+
+.hero {
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 87vh;
+	width: inherit;
+	margin-bottom: 5%;
+}
+
+.hero__container {
+	padding-top: 10%;
+}
+
+.hero__p{
+	margin-top: 5%;
+	margin-bottom: 7%;
+	font-size: 1.5em;
+}
+
+.hero__btn {
+	width: 70%;
+	text-align: center;
+	font-size: 2em;
+}
+
+@media (min-width: 930px) {
+	.centered {
+		width: 80%;
+	}
+}
+
+.where {
+	margin-bottom: 6%;
+}
+
+.where__h2 {
+	margin-bottom: 3%;
+}
+
+.where__img {
+	padding: 7px;
+	border: 1px solid #848383;
+	margin-bottom: 3%;
+}
+
+.where__h3 {
+	border-top: 1px solid #848383;
+	border-bottom: 1px solid #848383;
+	padding: 5px 0;
+	margin-bottom: 3%
+}
+
+.where__p {
+	font-weight: 10;
+}
+
+.buy {
+	margin-bottom: 5%;
+}
+
+.buy__h2 {
+	margin-bottom: 3%;
+}
+
+.buy__btn {
+	width: 100%;
+	font-size: 1.2em;
+}
+
+.pay {
+	margin-bottom: 5%;
+}
+
+.pay__h2 {
+	margin-bottom: 3%;
+}
+
+.pay__center {
+	width: 80%;
+	margin-bottom: 3%;
+}
+
+.pay__img {
+	margin-bottom: 4%;
+}
+
+.pay__h3 {
+	font-size: 1em;
+}
+
+.problem {
+	margin-bottom: 5%;
+}
+
+.problem__h2 {
+	margin-bottom: 3%;
+}
+
+@media (min-width: 930px) {
+	.problem__p {
+		margin-top: 10%;
+	}
+}
+
+.question {
+	background-color: #424242;
+}
+
+.question__h1 {
+	color: #fff;
+	margin-bottom: 3%;
+	padding-top: 6%;
+}
+
+.question__h2 {
+	color: #fff;
+	font-size: 2em;
+	margin-bottom: 7%;
+}
+
+.question__btn {
+	margin-bottom: 1%;
+}
+
+.question__p {
+	color: #fff;
+	font-size: .7em;
+}
+
+.map_container {
+	position: relative;
+	margin-bottom: 3%
+}
+
+.map_text {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	background-color: #fff;
+	padding: 1em;
+	font-size: .8em;
+	
+}
+
+.footer {
+	margin-bottom: 2%;
+}
+
+.footer__p {
+	font-size: .7em;
+	margin: 10px 0 0 20px;
+}
+
+.footer__phone {
+	font-size: 1.5em;
+	margin: 0 0 0 20px;
+}
