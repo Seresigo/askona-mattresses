@@ -24,6 +24,12 @@ p {
 	border: 1px solid #ffffff;
 }
 
+.btn:hover {
+	background-color: #fff;
+	color: #d20000;
+	border: 1px solid #d20000;
+}
+
 .nav_phone {
 	color: #000000;
 	font-weight: bold;
@@ -44,6 +50,10 @@ p {
 	.nav__btn {
 		font-size: 1.7em;
 	}
+}
+
+.hero::before {
+	
 }
 
 .hero {
